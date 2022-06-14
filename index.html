@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <form id="form">
+        <div id="inner-form">
+        <div class="form-elements">
+            <label>Name</label>
+            <input type="text" name="name" id="userName" placeholder="Name" required><br><br>
+        </div>
+        <div class="form-elements">
+            <label>Email</label>
+            <input type="email" name="email" id="userEmail" placeholder="Email" required><br><br>
+        </div>
+        <div class="form-elements">
+            <label>Age</label>
+            <input type="number" name="age" id="userAge" placeholder="Age" required><br><br>
+        </div>
+        <div class="form-elements">
+            <label>Phone</label>
+            <input type="number" name="phone" id="userPhone" placeholder="Phone Number" required><br><br>
+        </div>
+        <div class="form-elements">
+            <label>Adhaar Number</label>
+            <input type="number" name="number" id="userNumber" placeholder="Adhaar Number" required><br><br>
+        </div>
+        <div class="form-elements">
+            <label>Address</label>
+            <input type="text" name="address" id="userAddress" placeholder="Address" required><br><br>
+        </div>
+        <div class="form-elements">
+            <label>Date</label>
+            <input type="date" name="date" id="userDate" required><br><br>
+        </div>
+        <div class="form-elements" style="width: 100%;">
+            <button type="button" onclick="submitHandler()">SUBMIT</button>
+        </div>
+        </div>
+    </form>
+    <script src="userScript.js"></script>
+</body>
+
+</html>

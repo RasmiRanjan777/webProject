@@ -1,0 +1,18 @@
+#form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#inner-form {
+    border: 2px solid black;
+}
+
+.form-elements {
+    margin: 3px;
+    padding: 3px;
+    font-size: larger;
+    font-weight: bolder;
+}
